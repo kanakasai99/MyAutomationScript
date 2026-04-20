@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
  */
 
 @CucumberOptions(
-        features = "C:\\Users\\Sai\\AutpmationForEverything\\src\\test\\resources\\features\\NoSuchElement.feature",
+        features = "C:\\Users\\Sai\\AutpmationForEverything\\src\\test\\resources\\features",
         glue = {"stepDefinitions", "base"},           // packages for steps + hooks
         plugin = {
                 "pretty",
